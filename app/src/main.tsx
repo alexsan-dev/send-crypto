@@ -2,10 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import ReactOpenWallet from "react-open-wallet";
-import App from "./components/App";
+import App from "./components/app";
 
 ReactDOM.render(
-  <ReactOpenWallet>
+  <ReactOpenWallet hideButton>
     <React.StrictMode>
       <App />
     </React.StrictMode>
